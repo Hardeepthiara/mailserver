@@ -1,0 +1,26 @@
+.header{
+    height: 70px;
+    
+    background-color: #3390FF;
+    top: 0;
+    position: absolute;
+	
+    
+}
+.content{
+margin-top:69px;
+margin-left:0;
+background-color:#D8DADD;
+height:100%;
+
+}
+.bt
+{
+	margin-top: 20px;
+}
+.rightside
+{
+	background-color:#E8EDF3 ;
+	height:100%;
+	margin-top:69px;
+}
