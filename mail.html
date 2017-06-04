@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Mail Server</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <!-- Optional theme -->
@@ -15,7 +15,16 @@
 	
         <div class="row">
             <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 header">
-                
+				<div class="row">
+
+					<div class="col-md-4 col-sm-4 col-lg-4 col-xs-4">
+						<input type="text" class="search" placeholder="Search">
+						
+						<button type="button" class="btn btn-default btn-md srch">
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+						</button>
+					</div>
+				</div>
             </div>
             
         </div>
@@ -24,12 +33,17 @@
             <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2 content">
 			   
 
-				<input type="button" class="btn btn-primary bt btn-lg btn-sm btn-md active" value="Compose">
+				<input type="button" class="btn btn-primary bt active btn-block" value="Compose"><br>
+				<p class="">
+				<a class="btn btn-block links" href="#"> Inbox</a>
+				<a class="btn btn-block links" href="#"> Sent Mail</a>
+				<a class="btn btn-block links" href="#"> Drafts</a>
+				</p>
 				
             </div>
 			<div class="col-md-10 col-sm-10 col-lg-10 col-xs-10 rightside">
 			   
-
+				
 
 				
             </div>

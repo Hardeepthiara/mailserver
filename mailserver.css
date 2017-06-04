@@ -4,8 +4,6 @@
     background-color: #3390FF;
     top: 0;
     position: absolute;
-	
-    
 }
 .content{
 margin-top:69px;
@@ -16,11 +14,35 @@ height:100%;
 }
 .bt
 {
-	margin-top: 20px;
+	margin-top: 25px;
+
 }
 .rightside
 {
 	background-color:#E8EDF3 ;
 	height:100%;
 	margin-top:69px;
+}
+.links
+{
+	text-align:left;
+	
+}
+.search
+{
+	margin-top:20px;
+	margin-left:1000px;
+	position:absolute;
+	height:28px;
+	padding:3px 6px 3px 6px;
+}
+.srch
+{
+	margin-top:20px;
+	margin-left:1170px;
+	position:absolute;
+}
+.inputt
+{
+
 }
